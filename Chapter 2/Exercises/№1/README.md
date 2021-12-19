@@ -1,8 +1,5 @@
+### 1. Напишите программу на С++, которая отобразит ваше имя и адрес(можете указать фиктивные данные).
 
-1.РќР°РїРёС€РёС‚Рµ РїСЂРѕРіСЂР°РјРјСѓ РЅР° РЎ++, РєРѕС‚РѕСЂР°СЏ РѕС‚РѕР±СЂР°Р·РёС‚ РІР°С€Рµ РёРјСЏ Рё Р°РґСЂРµСЃ
-(РјРѕР¶РµС‚Рµ СѓРєР°Р·Р°С‚СЊ С„РёРєС‚РёРІРЅС‹Рµ РґР°РЅРЅС‹Рµ).
+------------------------------------------------
 
-=====================================================================================
-
-1.Write a C++ program that displays your name and address 
-(or if you value yourprivacy,a fictitious name and address).
+### 1. Write a C++ program that displays your name and address (or if you value your privacy,a fictitious name and address).

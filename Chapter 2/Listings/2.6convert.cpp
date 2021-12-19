@@ -1,11 +1,11 @@
-//Listing 2.6 convert.cpp -- converts stone to pounds -- РїСЂРµРѕР±СЂР°Р·СѓРµС‚ СЃС‚РѕСѓРЅС‹ РІ С„СѓРЅС‚С‹
+//Listing 2.6 convert.cpp -- converts stone to pounds -- Преобразует стоуны в фунты
 #include <iostream>
-int stonetolb(int);		// function prototype // РїСЂРѕС‚РѕС‚РёРї С„СѓРЅРєС†РёРё
+int stonetolb(int);		// function prototype // прототип функции
 int main()
 {
 	using namespace std;
 	int stone;
-	cout << "Enter the weight in stone: "'
+	cout << "Enter the weight in stone: ";
 	cin >> stone;
 	int pounds = stonetolb(stone);
 	cout << stone << " stone = ";

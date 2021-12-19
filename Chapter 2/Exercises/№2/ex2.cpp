@@ -1,5 +1,7 @@
 #include <iostream>
+
 int FurlongToYard(int);
+
 int main()
 {
 	std::cout << "Enter the value in furlongs: ";

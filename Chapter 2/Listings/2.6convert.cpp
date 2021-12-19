@@ -1,6 +1,6 @@
-//Listing 2.6 convert.cpp -- converts stone to pounds -- Преобразует стоуны в фунты
+//Listing 2.6 convert.cpp -- converts stone to pounds -- РџСЂРµРѕР±СЂР°Р·СѓРµС‚ СЃС‚РѕСѓРЅС‹ РІ С„СѓРЅС‚С‹
 #include <iostream>
-int stonetolb(int);		// function prototype // прототип функции
+int stonetolb(int);		// function prototype // РїСЂРѕС‚РѕС‚РёРї С„СѓРЅРєС†РёРё
 int main()
 {
 	using namespace std;

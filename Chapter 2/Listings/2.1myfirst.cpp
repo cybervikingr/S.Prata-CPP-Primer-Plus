@@ -1,10 +1,10 @@
-//Listing 2.1 myfirst.cpp -- displays a message -- выводит сообщение на экран
-#include <iostream>									// a PREPROCESSOR directive	// директива препроцессора
-int main ()											// function header			// заголовок функции
-{													// start of function body	// начало тела функции
-	using namespace std;							// make definitions visible	// делает видимыми определения
-	cout << "Come up and C++ me some time.";		// message					// сообщение
-	cout << endl;									// start a new line			// начало новой строки
-	cout << "You won't regret it!";					// more output				// дополнительный выводит
-	return 0;										// terminate main()			// завершение функции main()
-}													// end of function body		// конец тела функции
+//Listing 2.1 myfirst.cpp -- displays a message -- РІС‹РІРѕРґРёС‚ СЃРѕРѕР±С‰РµРЅРёРµ РЅР° СЌРєСЂР°РЅ
+#include <iostream>									// a PREPROCESSOR directive	// РґРёСЂРµРєС‚РёРІР° РїСЂРµРїСЂРѕС†РµСЃСЃРѕСЂР°
+int main ()											// function header			// Р·Р°РіРѕР»РѕРІРѕРє С„СѓРЅРєС†РёРё
+{													// start of function body	// РЅР°С‡Р°Р»Рѕ С‚РµР»Р° С„СѓРЅРєС†РёРё
+	using namespace std;							// make definitions visible	// РґРµР»Р°РµС‚ РІРёРґРёРјС‹РјРё РѕРїСЂРµРґРµР»РµРЅРёСЏ
+	cout << "Come up and C++ me some time.";		// message					// СЃРѕРѕР±С‰РµРЅРёРµ
+	cout << endl;									// start a new line			// РЅР°С‡Р°Р»Рѕ РЅРѕРІРѕР№ СЃС‚СЂРѕРєРё
+	cout << "You won't regret it!";					// more output				// РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Р№ РІС‹РІРѕРґРёС‚
+	return 0;										// terminate main()			// Р·Р°РІРµСЂС€РµРЅРёРµ С„СѓРЅРєС†РёРё main()
+}													// end of function body		// РєРѕРЅРµС† С‚РµР»Р° С„СѓРЅРєС†РёРё

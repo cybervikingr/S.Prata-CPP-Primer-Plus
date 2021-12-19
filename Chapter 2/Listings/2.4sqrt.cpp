@@ -1,4 +1,4 @@
-//Listing 2.4 sqrt.cpp -- using the sqrt() function -- использование фунции sqrt()
+//Listing 2.4 sqrt.cpp -- using the sqrt() function -- РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ С„СѓРЅС†РёРё sqrt()
 #include <iostream>
 #include <cmath> 	// or math.h
 

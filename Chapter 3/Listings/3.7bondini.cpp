@@ -1,4 +1,5 @@
 //Listing 3.7 bondini.cpp -- использование управляющих последовательностей
+// -- using escape sequences
 #include <iostream>
 
 int main()

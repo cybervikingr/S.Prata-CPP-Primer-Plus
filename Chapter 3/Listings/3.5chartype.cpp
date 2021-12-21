@@ -1,10 +1,10 @@
-//Listing 3.5 chartype -- тип char
+//Listing 3.5 chartype -- the char type -- тип char
 #include <iostream>
 
 int main()
 {
   using namespace std;
-  char ch;  // объявление переменной char
+  char ch;  // declare a char variable // объявление переменной char
 
   cout << "Enter a character: " << endl;
   cin >> ch;

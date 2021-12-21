@@ -1,4 +1,5 @@
-//Listing 3.4 hexoct2 -- отображает значения в шестнадцатиричном и восьмиричном форматах
+//Listing 3.4 hexoct2 -- display values in hex and octal
+// -- отображает значения в шестнадцатиричном и восьмиричном форматах
 #include <iostream>
 
 int main()
@@ -10,8 +11,10 @@ int main()
 
   cout << "Monsieur cuts a striking figure!" << endl;
   cout << "chest = " << chest << " (decimal for 42)" << endl;
+  // manipulator for changing number base
   cout << hex;  // манипуляция для изменения основания системы счисления
   cout << "waist = " << waist << " (hexadecimal for 42)" << endl;
+  // manipulator for changing number base
   cout << oct;  // манипуляция для изменения основания системы счисления
   cout << "inseam = " << inseam << " (octal for 42)" << endl;
 

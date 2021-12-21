@@ -22,7 +22,7 @@ int main()
 	
 	char ch = 'Z';
 	cout << "The code for " << ch << " is ";	//print as char
-	cout << int(ch) << endl;					// print as int
+	cout << int(ch) << endl;			// print as int
 	cout << "Yes, the code is ";
 	cout << static_cast<int>(ch) << endl;		// using static_cast
 	

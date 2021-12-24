@@ -1,10 +1,6 @@
 #include <iostream>
 #include <cmath>
-/* 1foot=12inches feetinch to feet
-// inch to metres  *0.0254
-// lbs to kg / 2.2
-// bmi = kg / m^2
-*/
+
 int main() 
 {
     int feet,inches,lbs;

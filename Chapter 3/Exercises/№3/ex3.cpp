@@ -20,4 +20,6 @@ int main()
 
     std::cout << degrees << " degrees, " << minutes << " minutes, " << seconds 
     << " seconds = " << decdegrees << " degrees" << std::endl;
+
+    return 0;
 }

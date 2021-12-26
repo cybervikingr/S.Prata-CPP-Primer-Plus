@@ -1,15 +1,17 @@
-//Listing 4.1 arrayone.cpp -- небольшие массивы целых чисел
+//Listing 4.1 arrayone.cpp -- small arrays of integers -- небольшие массивы целых чисел
 #include <iostream>
 
 int main()
 {
     using namespace std;
-    int yams [3];       // создание массива из трёх элементов
-    yams [0] = 7;       // присваивание значения первому элементу
+    int yams [3];       // creates array with three elements // создание массива из трёх элементов
+    yams [0] = 7;       // assign value to first element // присваивание значения первому элементу
     yams [1] = 8;
     yams [2] = 6;
 
-    int yamcosts[3] {20, 30, 5}; // создание и инициализация массива
+    int yamcosts[3] {20, 30, 5}; // create, initialize array // создание и инициализация массива
+    // NOTE: If your C++ compiler or translator can't initialize this array,
+    // use static int yamcosts[3] instead of int yamcosts[3]
     // Примечание. Если ваш компилятор С++ не может инициализировать этот массив,
     // используйте static int yamcosts[3] вместо int yamcosts [3]
 

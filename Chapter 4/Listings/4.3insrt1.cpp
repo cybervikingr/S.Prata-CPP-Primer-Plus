@@ -1,4 +1,4 @@
-//Listing 4.3 insrt1.cpp -- чтение более одной строки
+//Listing 4.3 insrt1.cpp -- reading more than one string -- чтение более одной строки
 #include <iostream>
 
 int main()

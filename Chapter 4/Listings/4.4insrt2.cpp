@@ -9,7 +9,7 @@ int main()
     char dessert[ArSize];
 
     cout << "Enter your name:\n";
-    cin.getline(name, ArSize);  // reads through newline
+    cin.getline(name, ArSize);  // reads through newline // читать до символа новой строки
     cout << "Enter your favourite dessert:\n";
     cin.getline(dessert, ArSize);
     cout << "I have some delicious " << dessert;

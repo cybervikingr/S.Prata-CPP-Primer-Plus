@@ -1,4 +1,4 @@
-//Listing 4.19 addpntrs.cpp -- pointer addition
+//Listing 4.19 addpntrs.cpp -- pointer addition -- сложение указателей
 #include <iostream>
 
 int main()
@@ -7,10 +7,10 @@ int main()
     double wages[3] = {10000.0, 20000.0, 30000.0};
     short stacks[3] = {3, 2, 1};
 
-// Here are two ways to get the address of an array
-    double * pw = wages;        // name of an array = address
-    short * ps = &stacks[0];    // or use address operator
-// with array element
+// Here are two ways to get the address of an array // два способа получить адрес массива
+    double * pw = wages;        // name of an array = address // имя массива = адрес
+    short * ps = &stacks[0];    // or use address operator // или использовать оператор адреса
+// with array element // с элементом массива
     cout << "pw = " << pw << ", *pw = " << *pw << endl;
     pw = pw + 1;
     cout << "add 1 to the pw pointer:\n";

@@ -1,4 +1,4 @@
-//Listing 4.12 assgn_st.cpp -- assigning structures
+//Listing 4.12 assgn_st.cpp -- assigning structures -- присваивание структур
 #include <iostream>
 struct inflatable
 {
@@ -20,7 +20,7 @@ int main()
     cout << "bouquet: " << bouquet.name << " for $";
     cout << bouquet.price << endl;
 
-    choice = bouquet;   // assing one structure to another
+    choice = bouquet;   // assing one structure to another // присвоить одну структуру другой
     cout << "choice: " << choice.name << " for $";
     cout << choice.price << endl;
     return 0;

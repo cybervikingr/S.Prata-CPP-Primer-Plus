@@ -1,4 +1,4 @@
-//Listing 4.16 init_ptr.cpp -- initialize a pointer
+//Listing 4.16 init_ptr.cpp -- initialize a pointer // инициализация указателя
 #include <iostream>
 
 int main()

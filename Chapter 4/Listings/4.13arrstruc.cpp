@@ -1,4 +1,4 @@
-//Listing 4.13 arrstruc.cpp -- an array of structures
+//Listing 4.13 arrstruc.cpp -- an array of structures -- массив структур
 #include <iostream>
 struct inflatable
 {
@@ -10,10 +10,10 @@ struct inflatable
 int main()
 {
     using namespace std;
-    inflatable guests[2] =          // initializing an array of struct
+    inflatable guests[2] =          // initializing an array of struct // инициализация массива структур
     {
-        {"Bambi", 0.5, 21.99},      // first structure in array
-        {"Godzilla", 2000, 565.99}  // next structure in array
+        {"Bambi", 0.5, 21.99},      // first structure in array // первая структура в массиве
+        {"Godzilla", 2000, 565.99}  // next structure in array // следующая структура в массиве
     };
 
     cout << "The guests " << guests[0].name << " and " << guests[1].name 

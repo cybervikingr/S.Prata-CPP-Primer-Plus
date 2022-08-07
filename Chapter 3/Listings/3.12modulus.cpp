@@ -12,7 +12,7 @@ int main()
 	cin >> lbs;
 	int stone = lbs / Lbs_per_stn;		// whole stone // количество целых стоунов
 	int pounds = lbs % Lbs_per_stn;		// remainder in pounds // остаток в фунтах
-	cout << lbs < " pounds are " << stone << stone 
+	cout << lbs << " pounds are " << stone << stone 
 		 << " stone, " << pounds << " pound(s).\n";
 	return 0;
 }
